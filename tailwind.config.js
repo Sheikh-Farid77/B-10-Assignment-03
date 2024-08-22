@@ -10,6 +10,7 @@ module.exports = {
       'primary_btn': '#ABEF5F',
       'black' : '#000',
       'white' : '#fff',
+      'background' : '#F4F4F4'
     },
   },
   plugins: [

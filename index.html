@@ -15,9 +15,9 @@
 </head>
 
 <body class="font-monrope">
-    <header class="bg-[#f7f7f7] pb-24">
+    <header class="bg-gradient-to-b from-background to-white pb-24">
         <!-- nav bar -->
-        <nav class="container mx-auto bg-transparent py-5">
+        <nav class="container mx-auto bg-transparent p-5">
             <div class="navbar bg-transparent">
                 <div class="navbar-start">
 
@@ -44,7 +44,7 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  p-2 shadow right-0">
                             <li><a>Home</a></li>
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Portfolio</a></li>
@@ -60,20 +60,22 @@
                     <div class="hidden md:block">
                         <i class="fa-solid fa-cart-shopping mr-5 p-2 text-[#737373] rounded-full bg-white"></i>
                     </div>
-                    <a class="btn rounded-full bg-primary_btn hover:bg-white"><span
-                            class="md:text-xl font-extrabold">Book
-                            Consult</span>
-                        <i class="fa-solid fa-arrow-right -rotate-45 p-2 text-white rounded-full bg-black"></i>
-                    </a>
+                    <div class="hidden md:block">
+                        <a class="btn rounded-full bg-primary_btn hover:bg-white"><span
+                                class="text-xs xl:text-xl font-extrabold">Book
+                                Consult</span>
+                            <i class="fa-solid fa-arrow-right -rotate-45 p-2 text-white rounded-full bg-black"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
         <!-- hero section -->
-        <section class="container mx-auto bg-transparent text-center">
+        <section class="container mx-auto px-5 bg-transparent text-center">
             <div class="flex justify-center mb-6">
                 <img src="assets/banner.png" alt="banner-image">
             </div>
-            <h1 class="text-6xl font-extrabold mb-6 bg-transparent">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 bg-transparent">
                 A barn house of this design has a striking appearance
             </h1>
             <p class="mb-8">The barn house captivates with its blend of rustic charm and modern sophistication,
@@ -85,7 +87,41 @@
             </a>
         </section>
     </header>
-    <main>
+    <main class="">
+        <!-- design section -->
+        <div class="bg-background pt-24 pb-24">
+            <div class="container mx-auto px-5 lg:flex items-center space-y-6">
+                <div class="flex-1">
+                    <button class="px-4 font-semibold mb-6 py-2 rounded-full bg-white"><i
+                            class="fa-solid fa-arrow-right"></i>
+                        About Us</button>
+                    <h2 class="text-4xl font-bold mb-6">We design thoughtful, liveable spaces</h2>
+                    <p class="mb-6">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="flex items-center gap-8 p-3 bg-white rounded-xl">
+                        <div>
+                            <img src="assets/commercial.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-4">Commercial</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-8 p-3 bg-white rounded-xl mt-4">
+                        <div>
+                            <img src="assets/commercial.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-4">Commercial</h3>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img class="mx-auto" src="assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </div>
 
     </main>
     <footer>
