@@ -20,6 +20,7 @@ module.exports = {
       'emerald': '#A4DAC3',
       'blue': '#77AAEA',
       'border_color': '#E9E9E9',
+      'red': '#ffbaba',
     },
    
 

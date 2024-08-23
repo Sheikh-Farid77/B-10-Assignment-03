@@ -15,7 +15,7 @@
 </head>
 
 <body class="font-monrope">
-    <header class="bg-gradient-to-b from-background to-white pb-24">
+    <header class="bg-gradient-to-b from-background to-white">
         <!-- nav bar -->
         <nav class="container mx-auto bg-transparent p-5">
             <div class="navbar bg-transparent">
@@ -86,11 +86,32 @@
                 <i class="fa-solid fa-arrow-right -rotate-45 p-2 text-black rounded-full bg-primary_btn"></i>
             </a>
         </section>
+        <!-- Challenge section -->
+        <section class="challenge-bg px-5 flex items-center pb-48 mt-24">
+            <div class="container mx-auto">
+                <h2 class="text-4xl text-center font-bold mb-6 mt-48 text-white p-2">Creating Possibilities for You</h2>
+                <p class="text-center font-semibold text-white p-2 mb-8">There is No Home Like Rinterio</p>
+                <div class="grid md:grid-cols-2 items-center justify-center gap-4">
+                    <div class="flex justify-center md:justify-end">
+                        <input class="bg-white rounded-lg p-3" type="text" placeholder="Enter Your Choice">
+                    </div>
+                    <div class="flex justify-center md:justify-start">
+                        <button class="border-none bg-red px-4 rounded-lg py-3">Search</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
     </header>
     <main class="">
         <!-- design section -->
         <section class="bg-background pt-24 pb-24">
-            <div class="container mx-auto px-5 lg:flex items-center space-y-6">
+
+            <div class="container mx-auto px-5 lg:flex items-center space-y-6 relative">
+                <div class="absolute -top-12 left-0 xl:-top-0 2xl:top-10">
+                    <img src="assets/Vector.png" alt="">
+                </div>
                 <div class="flex-1">
                     <button class="px-4 font-semibold mb-6 py-2 rounded-full bg-white"><i
                             class="fa-solid fa-arrow-right"></i>
@@ -232,7 +253,7 @@
 
         </section>
         <!-- discuss section -->
-        <section class="bg-form_image bg-no-repeat bg-cover bg-center pt-24 pb-24">
+        <section style="background-image: url('assets/bg.jpg');" class="bg-no-repeat bg-cover bg-center pt-24 pb-24">
             <div class="container mx-auto px-5">
                 <button class="px-4 block mb-5 mx-auto font-semibold py-2 rounded-full bg-primary_btn bg-opacity-40"><i
                         class="fa-solid fa-arrow-right"></i>
@@ -260,8 +281,8 @@
                             type="email" placeholder="Email Number*">
                     </div>
                     <div class="md:col-span-2">
-                        <textarea class="w-full border border-border_color p-3 bg-white rounded-xl " name="" id=""
-                            placeholder=""> Write your message here
+                        <textarea class="w-full border border-border_color p-3 bg-white rounded-xl " rows="10" name=""
+                            id="" placeholder=""> Write your message here
 
                         </textarea>
                     </div>
