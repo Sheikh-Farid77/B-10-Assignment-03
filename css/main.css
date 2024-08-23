@@ -8,3 +8,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.discuss-bg{
+    background-image: url('../assets/bg.jpg');
+}
